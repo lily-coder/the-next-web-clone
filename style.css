@@ -141,6 +141,96 @@ nav .fas {
 }
 
 /*========THE LATEST FUNDING SECTION*/
+.latest-funding {
+  padding: 10px;
+}
+
+.latest-funding,
+.sec-heading {
+  flex-direction: column;
+}
+
+.sec-heading ul {
+  flex-direction: column-reverse;
+  margin-top: 10px;
+}
+
+.sec-heading a,
+.sec-heading h2 {
+  color: #f42;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+
+.top-box {
+  position: relative;
+  height: 100px;
+  background-color: #ffebe7;
+}
+
+.top-box img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.top-box p {
+  padding-left: 70px;
+  color: #000;
+}
+
+.top-box h4 {
+  padding: 10px 10px 10px 70px;
+  background-color: #f42;
+  color: #fff;
+}
+
+.top-box .value {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 1.4rem;
+}
+
+.top-box .series {
+  font-size: 11px;
+  line-height: 1.2rem;
+  color: #898888;
+}
+
+.center-box {
+  padding: 10px;
+  flex-direction: column;
+  background-color: #fffaf8;
+}
+
+.center-box a {
+  font-size: 13px;
+  padding: 7px 0;
+  color: #000;
+}
+
+.bottom-box {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  background-color: #fffaf8;
+  padding: 10px;
+}
+
+.bottom-box a {
+  font-size: 12px;
+}
+
+.bottom-box p {
+  color: #000;
+}
+
+.bottom-box span {
+  color: #898888;
+}
 /*========THE FOOTER SECTION========*/
 .footer_container {
     background: black;
