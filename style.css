@@ -1,13 +1,27 @@
-html,
-body {
+* {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
-  font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-  text-decoration: none;
+  color: #898888;
+}
+
+.gray {
+  color: #898888;
+  margin-right: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+img {
+  cursor: pointer;
 }
 /*=========THE HEADER SECTION=======*/
 .header_first {
