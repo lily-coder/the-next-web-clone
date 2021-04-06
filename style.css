@@ -117,19 +117,19 @@ nav .fas {
 }
 
 .image-1 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/header-img-1.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/hg3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .image2 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/header-img-2.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/hg1.webp);
   background-size: cover;
   background-position: center;
 }
 
 .image3 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/header-img-3.jpg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/hg2.webp);
   background-size: cover;
   background-position: center;
 }
