@@ -1,0 +1,155 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+/*=========THE HEADER SECTION=======*/
+.header_first {
+  background: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px, 0px, 5px, 0px;
+  font-size: 0.5em;
+  margin: 0; 
+}
+
+.header_first a {
+  padding: 1px;
+  color: white;
+  
+}
+.first_left {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  top: 0;
+  left: 0px !important;
+  width: 60%;
+}
+
+.first_right {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 0px;
+  padding-right: 0px;
+  top: 0;
+  right: 2;
+  width: 40%;
+}
+
+.header_second {
+  height: 0.5rem;
+  width: 0.5%;
+  font-size: 0.5em;
+}
+
+.header_third {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  font-size: 0.5em;
+  flex-direction: row;
+}
+
+.search_logo_top {
+  display: flex;
+  padding-right:5px;
+  width: 10%;
+  margin: 0;
+}
+
+.vert_align {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 10%;
+  color: red;
+}
+
+.header_third a {
+  padding: 1px;
+  color: black;
+  font-size: 0.5em;
+}
+
+.header_fourth {
+background-color: yellow;
+width: 100%;
+font-size: 0.5 em;
+}
+
+/*========THE FOOTER SECTION========*/
+.footer_container {
+    background: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    flex-shrink: initial;
+    
+  }
+
+.footer_upper {
+display: flex;
+flex-direction: row;
+color: white;
+}
+
+i {
+  text-decoration: white;
+  padding: 1px 1px 1px 1px;
+  color: white;
+  padding: 0.5em;
+  margin: 2px;
+  border-radius: 0.5em;
+  background: rgb(27, 27, 27);
+}
+
+.fa {
+  font-size: x-small;
+}
+
+.a{
+  background-color: grey;
+}
+
+.footer_middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.5em;
+}
+
+.footer_middle_text {
+  padding: 7px;
+  color: white;
+}
+
+.footer_lower {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: x-small;
+  margin-bottom: 10px;
+}
+
+.footer_tnw {
+  height: 1em;
+}
+
+.stackpath {
+  height: 1em;
+  
+}
