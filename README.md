@@ -1,6 +1,6 @@
 # The Next Web Clone
 
-> This is a clone of the next web page.
+> This is a clone of The Next Week page.
 
 This is the header section
 ![screenshot](./img/header.png)
