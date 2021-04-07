@@ -35,7 +35,6 @@ In this project, I am working on making the website responsive.
 - Twitter: [@twitterhandle](https://twitter.com/AnassTantane)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/anass-tantane-706172194/)
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
