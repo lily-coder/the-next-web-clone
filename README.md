@@ -5,9 +5,9 @@
 This is the header section
 ![screenshot](./img/header.png)
 This is the latest news section
-![screenshot](./img/header.png)
+![screenshot](./img/latest.png)
 This is the footer section
-![screenshot](./footer.png)
+![screenshot](./img/footer.png)
 
 
 In this project, I am working on making the website responsive.
