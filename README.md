@@ -1,16 +1,21 @@
-# tnw-website
+# The Next Web Clone
 
-> One paragraph statement about the project.
+> This is a clone of the next web page.
 
-![screenshot](./app_screenshot.png)
+This is the header section
+![screenshot](./img/header.png)
+This is the latest news section
+![screenshot](./img/header.png)
+This is the footer section
+![screenshot](./footer.png)
 
-Additional description about the project and its features.
+
+In this project, I am working on making the website responsive.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- Css
 
 ## Live Demo
 

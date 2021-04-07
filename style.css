@@ -231,6 +231,7 @@ nav .fas {
 .bottom-box span {
   color: #898888;
 }
+
 /*========THE FOOTER SECTION========*/
 .footer_container {
   background: black;
@@ -243,7 +244,6 @@ nav .fas {
   align-items: center;
   padding-top: 10px;
   flex-shrink: initial;
-    
   }
 
 .footer_upper {
