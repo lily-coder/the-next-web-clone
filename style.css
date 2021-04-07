@@ -424,6 +424,11 @@ nav .fa-search {
 #third-box {
   display: block;
 }
+/* stylelint-disable */
+.top-box {
+  display: none;
+}
+/* stylelint-enable */
 
 @media screen and (min-width: 1024px) {
   .showcases {
