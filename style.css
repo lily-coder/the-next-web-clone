@@ -310,7 +310,7 @@ i {
 }
 
 .section2-title {
-  padding-left: 30px;
+  padding-left: 150px;
   color: #f42;
 }
 
@@ -329,7 +329,7 @@ i {
   align-content: center;
   justify-content: center;
   display: grid;
-  grid-template-columns: 22% 22% 22% 22%;
+  grid-template-columns: 18% 18% 18% 18%;
   grid-gap: 40px;
  border: 1px solid red;
   width: 100%;
@@ -338,11 +338,11 @@ i {
 
 .section2-content-wrapper {
   height: 230px;
-  width: 350px;
+  width: 260px;
 }
 
 .Latest-news-img {
-  width: 350px;
+  width: 260;
   height: 150px;
 }
 
