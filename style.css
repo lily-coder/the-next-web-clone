@@ -142,6 +142,68 @@ nav .fas {
   color: #fff;
 }
 
+/* ========THE LATEST NEWS SECTION======== */
+
+.section2 {
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 100%;
+  height: 600px;
+}
+
+.section2-title {
+  padding-left: 150px;
+  color: #f42;
+}
+
+.section2-title p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.fa-chevron-right {
+  color: #f42;
+}
+
+.section2-wraper {
+  align-content: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 18% 18% 18% 18%;
+  grid-gap: 40px;
+ border: 1px solid red;
+  width: 100%;
+  height: 500px;
+}
+
+.section2-content-wrapper {
+  height: 230px;
+  width: 260px;
+}
+
+.Latest-news-img {
+  width: 260;
+  height: 150px;
+}
+
+.section2-figcaption {
+  padding: 5px 5px;
+  margin: 5px 0;
+}
+
+.section2-figcaption a {
+  color: #000;
+  font-weight: bold;
+}
+
+.section2-figcaption span {
+  font-size: 14px;
+  color: #898888;
+}
+
 /* ========THE LATEST FUNDING SECTION========== */
 .latest-funding {
   padding: 10px;
@@ -299,68 +361,7 @@ i {
   height: 1em;
 }
 
-/* ========THE LATEST NEWS SECTION======== */
-
-.section2 {
-  justify-content: center;
-  flex-direction: column;
-  border: 1px solid black;
-  width: 100%;
-  height: 600px;
-}
-
-.section2-title {
-  padding-left: 150px;
-  color: #f42;
-}
-
-.section2-title p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  padding: 20px 0;
-}
-
-.fa-chevron-right {
-  color: #f42;
-}
-
-.section2-wraper {
-  align-content: center;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 18% 18% 18% 18%;
-  grid-gap: 40px;
- border: 1px solid red;
-  width: 100%;
-  height: 500px;
-}
-
-.section2-content-wrapper {
-  height: 230px;
-  width: 260px;
-}
-
-.Latest-news-img {
-  width: 260;
-  height: 150px;
-}
-
-.section2-figcaption {
-  padding: 5px 5px;
-  margin: 5px 0;
-}
-
-.section2-figcaption a {
-  color: #000;
-  font-weight: bold;
-}
-
-.section2-figcaption span {
-  font-size: 14px;
-  color: #898888;
-}
-
+/* =======TABLET MEDIAQUERIES ======== */
 @media screen and (min-width: 768px) {
   nav a {
     font-size: 14px;
@@ -487,6 +488,7 @@ nav .fa-search {
   display: block;
 }
 
+/* =======DESKTOP MEDIAQUERIES ======== */
 @media screen and (min-width: 1024px) {
   .showcases {
     height: 550px;
