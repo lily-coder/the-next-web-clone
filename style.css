@@ -302,6 +302,7 @@ i {
 /* ========THE LATEST NEWS SECTION======== */
 
 .section2 {
+  justify-content: center;
   flex-direction: column;
   border: 1px solid black;
   width: 100%;
@@ -309,6 +310,7 @@ i {
 }
 
 .section2-title {
+  padding-left: 30px;
   color: #f42;
 }
 
@@ -324,8 +326,8 @@ i {
 }
 
 .section2-wraper {
-  
   align-content: center;
+  justify-content: center;
   display: grid;
   grid-template-columns: 22% 22% 22% 22%;
   grid-gap: 40px;
@@ -335,7 +337,6 @@ i {
 }
 
 .section2-content-wrapper {
-  border: 1px solid green;
   height: 230px;
   width: 350px;
 }
