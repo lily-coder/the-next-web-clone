@@ -581,6 +581,65 @@ nav .fa-search {
   display: block;
 }
 
+/* =====Latest deals section tablet view =====*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.sub-news {
+  flex-direction: column;
+}
+
+.sub-news h4 {
+  font-size: 13px;
+}
+
+.news img {
+  height: 110px;
+  width: 100%;
+}
+
+.sub-news ul {
+  font-size: 10px;
+  color: #898888;
+}
+
+.sub-news .img-wrapper {
+  position: relative;
+}
+
+.triangle {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f0c000;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
+
+.discount {
+  display: block;
+  color: #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 25px;
+  right: 5px;
+  z-index: 2;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.deals ul {
+  color: #000;
+  font-size: 13px;
+}
+
 /* =======DESKTOP MEDIAQUERIES ======== */
 @media screen and (min-width: 1024px) {
   .showcases {
