@@ -241,24 +241,86 @@ nav .fas {
 }
 
 .categories {
-  border: 2px solid black;
   width: 450px;
   height: 700px;
 }
 
+
 .categories-header {
-  border: 1px solid black;
+  color: #f42;
 }
 
-.categories-main-img {
+.categories-main-img1 {
+  flex-direction: column;
   display: flex;
   background-image: url(img/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
   width: 380px;
   height: 250px;
 }
 
+.categories-main-img2 {
+  flex-direction: column;
+  display: flex;
+  background-image: url(img/Snag_3c8ecdc-368x276.webp);
+  width: 380px;
+  height: 250px;
+}
+.categories-main-img3 {
+  flex-direction: column;
+  display: flex;
+  background-image: url(img/MacBook-USB-C-Feat-Img-730x365.jpg);
+  width: 380px;
+  height: 250px;
+}
+.categories-main-img4 {
+  flex-direction: column;
+  display: flex;
+  background-image: url(img/vintage-robot-368x276.jpg);
+  width: 380px;
+  height: 250px;
+}
+.categories-main-img5 {
+  flex-direction: column;
+  display: flex;
+  background-image: url(img/Untitled-design-13-368x276.webp);
+  width: 380px;
+  height: 250px;
+}
+
+.categories-main-img6 {
+  flex-direction: column;
+  display: flex;
+  background-image: url(img/open-source-code-gq-368x276.webp);
+  width: 380px;
+  height: 250px;
+}
+
+.categories-main-img7 {
+  flex-direction: column;
+  display: flex;
+  background-image: url(img/zoom-fundraising-gq-368x276.webp);
+  width: 380px;
+  height: 250px;
+}
+
+.categories-main-img8 {
+  flex-direction: column;
+  display: flex;
+  background-image: url(img/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg);
+  width: 380px;
+  height: 250px;
+}
+
+.categories-main-img9 {
+  flex-direction: column;
+  display: flex;
+  background-image: url(img/amplified-368x276.jpg);
+  width: 380px;
+  height: 250px;
+}
+
 .categories-main-infos {
-  border: 3px solid purple;
+  flex-direction: column;
   width: 380px;
   padding-top: 150px;
   
@@ -273,17 +335,23 @@ nav .fas {
 .main-img-header{
   font-weight: bold;
   color: #fff;
-  font-size: 20px;
+  font-size: 23px;
 }
-.categories-main-infos span {
+.categories-main-infos span a {
   font-weight: bold;
   color: #666;
-  font-size: 18px;
+  font-size: 13px;
 }
 
 .categories-news {
+  color: #f42;
+  background-color: #f9ded9;
   display: flex;
   justify-content: space-between;
+}
+
+.categories-news a {
+  color: #f42;
 }
 
 
@@ -292,9 +360,8 @@ nav .fas {
   height: 90px;
 }
 
-
-
 .categories-links ul li {
+  border-bottom: 1px solid #ccc;
   padding: 5px 0;
   list-style-type: disk;
 }
