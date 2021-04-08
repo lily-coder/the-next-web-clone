@@ -185,7 +185,7 @@ nav .fas {
   width: 260px;
 }
 
-.Latest-news-img {
+.Latest-deals-img {
   width: 260;
   height: 150px;
 }
@@ -332,7 +332,7 @@ nav .fas {
   font-weight: 100;
 }
 
-.main-img-header{
+#main-img-header{
   font-weight: bold;
   color: #fff;
   font-size: 23px;
@@ -344,8 +344,6 @@ nav .fas {
 }
 
 .categories-news {
-  color: #f42;
-  background-color: #f9ded9;
   display: flex;
   justify-content: space-between;
 }
@@ -471,40 +469,40 @@ nav .fas {
 }
 
 /* ========THE LATEST DEALS SECTION======== */
-.news {
+.deals {
   flex-direction: column;
   padding: 10px;
 }
 
-.news h2,
-.news .latest-heading {
+.deals h2,
+.deals .latest-heading {
   color: #f42;
   margin: 20px o;
 }
 
-.news img {
+.deals img {
   height: 60px;
   width: 90px;
 }
 
-.sub-news {
+.sub-deals {
   flex-direction: row;
   margin-bottom: 10px;
 }
 
-.sub-news h4 {
+.sub-deals h4 {
   margin-top: 2px;
   margin-bottom: 5px;
   font-size: 13px;
   color: #000;
 }
 
-.sub-news ul {
+.sub-deals ul {
   font-size: 12px;
   color: 898888;
 }
 
-.news .latest-heading {
+.deals .latest-heading {
   flex-direction: row;
   justify-content: space-between;
 }
@@ -719,25 +717,25 @@ i {
     gap: 10px;
   }
 
-  .sub-news {
+  .sub-deals {
     flex-direction: column;
   }
 
-  .sub-news h4 {
+  .sub-deals h4 {
     font-size: 13px;
   }
 
-  .news img {
+  .deals img {
     height: 110px;
     width: 100%;
   }
 
-  .sub-news ul {
+  .sub-deals ul {
     font-size: 10px;
     color: #898888;
   }
 
-  .sub-news .img-wrapper {
+  .sub-deals .img-wrapper {
     position: relative;
   }
 
@@ -852,11 +850,11 @@ i {
     grid-template-columns: repeat(4, 1fr);
     gap:10px;
   }
-  .sub-news h4 {
+  .sub-deals h4 {
     font-size: 14px;
   }
 
-  .news img {
+  .deals img {
     height: 130px;
   }
   .deals h4 {
