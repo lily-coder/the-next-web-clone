@@ -102,10 +102,12 @@ nav .fas {
 }
 
 /* ========THE HIGHLIGHTS SECTION========= */
+
 .showcases {
   flex-direction: column;
   height: 1000px;
-  margin: 0 10px;
+  margin: 30px 10px;
+  padding-top: 100px;
 }
 
 .showcase,
@@ -452,7 +454,7 @@ nav .fa-search {
 
 /* stylelint-disable */
 .showcases {
-  flex-direction: row;
+   flex-direction: row;
   height: 300px;
   margin-top: 3px;
 }
