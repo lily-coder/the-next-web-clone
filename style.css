@@ -242,9 +242,73 @@ nav .fas {
 
 .categories {
   border: 2px solid black;
-  width: 300px;
-  height: 450px;
+  width: 450px;
+  height: 700px;
 }
+
+.categories-header {
+  border: 1px solid black;
+}
+
+.categories-main-img {
+  display: flex;
+  background-image: url(img/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
+  width: 380px;
+  height: 250px;
+}
+
+.categories-main-infos {
+  border: 3px solid purple;
+  width: 380px;
+  padding-top: 150px;
+  
+}
+
+.categories-main-infos p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+#main-img-header{
+  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
+}
+.categories-main-infos span {
+  font-weight: bold;
+  color: #666;
+  font-size: 18px;
+}
+
+.categories-news {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#news-img {
+  width: 90px;
+  height: 90px;
+}
+
+
+
+.categories-links ul li {
+  padding: 5px 0;
+  list-style-type: disk;
+}
+
+.categories-links li a {
+  text-decoration: none;
+  color: #555;
+}
+
+.categories-links li a:hover {
+  color: black;
+}
+
+
 
 
 /* ========THE LATEST FUNDING SECTION========== */
