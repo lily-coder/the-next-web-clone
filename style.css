@@ -270,7 +270,7 @@ nav .fas {
   font-weight: 100;
 }
 
-#main-img-header{
+.main-img-header{
   font-weight: bold;
   color: #fff;
   font-size: 20px;
@@ -287,7 +287,7 @@ nav .fas {
 }
 
 
-#news-img {
+.news-img {
   width: 90px;
   height: 90px;
 }
