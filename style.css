@@ -324,15 +324,19 @@ i {
 }
 
 .section2-wraper {
+  
+  align-content: center;
   display: grid;
-  grid-template-columns: 30% 30% 30% 30%;
-  grid-gap: 20px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: 35px;
  border: 1px solid red;
   width: 100%;
   height: 500px;
 }
 
-
+.section2-wraper div {
+  
+}
 
 .section2-content-wrapper {
   border: 1px solid green;
