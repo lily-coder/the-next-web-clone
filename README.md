@@ -19,7 +19,7 @@ In this project, I am working on making the website responsive.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://lily-coder.github.io/the-next-web-clone/)
 
 ## Authors
 
