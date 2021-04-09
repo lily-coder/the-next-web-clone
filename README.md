@@ -17,10 +17,6 @@ In this project, I am working on making the website responsive.
 - Html
 - Css
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
 ## Authors
 
 👤 **Lilian Moraa**
