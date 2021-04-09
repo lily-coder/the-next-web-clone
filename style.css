@@ -161,6 +161,7 @@ nav .fas {
 }
 
 .category {
+  margin: 10px 10px;
   flex-direction: column;
   width: 100%;
   color: #f42;
