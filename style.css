@@ -339,7 +339,7 @@ nav .fas {
 .news h2,
 .news .latest-heading {
   color: #f42;
-  margin: 20px o;
+  margin: 20px 0;
 }
 
 .news img {
@@ -366,7 +366,7 @@ nav .fas {
 
 .sub-news ul {
   font-size: 12px;
-  color: 898888;
+  color: #898888;
 }
 
 .news .latest-heading {
@@ -374,14 +374,14 @@ nav .fas {
   justify-content: space-between;
 }
 
-.news .latest-heading > p{
+.news .latest-heading > p {
   margin-top: 25px;
   font-size: 0.8rem;
 }
 
 .deals ul {
   color: var(--darkColor);
-  font-size: 0.8 rem;
+  font-size: 0.8rem;
 }
 
 .strike-through {
@@ -581,7 +581,7 @@ i {
     display: block;
   }
 
-  /* =====Latest deals section tablet view =====*/
+  /* =====Latest deals section tablet view ===== */
 
   .grid-container {
     display: grid;
@@ -646,7 +646,7 @@ i {
     font-size: 13px;
   }
 
-    /* =======Category section tablet view====== */
+  /* =======Category section tablet view====== */
   .categories {
     flex-direction: row;
     justify-content: space-between;
@@ -674,7 +674,6 @@ i {
   .showcases {
     height: 550px;
   }
-
 
   /* stylelint-disable */
   .showcase {
@@ -772,12 +771,13 @@ i {
     font-size: 13px;
   }
 
-  /* =====Latest deals section desktop view =====*/
+  /* =====Latest deals section desktop view ====== */
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap:10px;
+    gap: 10px;
   }
+
   .sub-news h4 {
     font-size: 14px;
   }
@@ -785,8 +785,8 @@ i {
   .news img {
     height: 130px;
   }
+
   .news h4 {
     margin-top: 20px;
   }
 }
-
