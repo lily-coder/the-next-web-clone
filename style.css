@@ -391,47 +391,6 @@ nav .fas {
 }
 
 /* ========THE FOOTER SECTION======== */
-
-.section2 {
-  flex-direction: column;
-  border: 1px solid black;
-  width: 100%;
-  height: 600px;
-}
-
-.section2-title {
-  color: #f42;
-}
-
-.section2-title p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  padding: 20px 0;
-}
-
-.fa-chevron-right {
-  color: #f42;
-}
-
-.section2-wraper {
-  display: grid;
-  grid-template-columns: 30% 30% 30% 30%;
-  grid-gap: 20px;
- border: 1px solid red;
-  width: 100%;
-  height: 500px;
-}
-
-
-
-.section2-content-wrapper {
-  border: 1px solid green;
-  height: 180px;
-  width: 250px;
-}
-
-/* ========THE FOOTER SECTION======== */
 .footer_container {
   background: black;
   position: relative;
