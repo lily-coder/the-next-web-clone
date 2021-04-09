@@ -16,6 +16,10 @@ a {
   margin-right: 50px;
 }
 
+.gray li a {
+  color: #898888;
+}
+
 .flex {
   display: flex;
 }
@@ -59,6 +63,10 @@ time,
 
 .top-nav li {
   margin-right: 10px;
+}
+
+.top-nav li a {
+  color: #fff;
 }
 
 .mid-nav li {
