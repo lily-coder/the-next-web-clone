@@ -497,11 +497,9 @@ i {
     align-items: center;
   }
 
-  /* stylelint-disable */
   .btm-nav a {
     margin: 0;
   }
-  /* stylelint-enable */
 
   .top-nav,
   .mid-nav,
