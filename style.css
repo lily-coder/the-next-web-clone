@@ -8,7 +8,7 @@
 }
 
 a {
-  color: #898888;
+  color: black;
 }
 
 .gray {
@@ -144,237 +144,98 @@ nav .fas {
   color: #fff;
 }
 
-/* ========THE LATEST NEWS SECTION======== */
+/* ========THE CATEGORIES SECTION======== */
 
-.section2 {
-  justify-content: center;
+.categories img {
+  width: 96px;
+  height: 96px;
+  float: right;
+}
+
+.category {
   flex-direction: column;
-  border: 1px solid black;
   width: 100%;
-  height: 600px;
-}
-
-.section2-title {
-  padding-left: 150px;
   color: #f42;
 }
 
-.section2-title p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  padding: 20px 0;
-}
-
-.fa-chevron-right {
+.category h2 {
+  margin-bottom: 10px;
   color: #f42;
 }
 
-.section2-wraper {
-  align-content: center;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 18% 18% 18% 18%;
-  grid-gap: 40px;
- width: 100%;
-  height: 500px;
+.top-category {
+  height: 400px;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 2px;
+  background-size: cover;
+  background-position: center;
 }
 
-.section2-content-wrapper {
-  height: 230px;
-  width: 260px;
+.bg-1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/categories-1.jpg);
 }
 
-.Latest-deals-img {
-  width: 260;
-  height: 150px;
+.bg-2 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/categories-2.jpg);
 }
 
-.section2-figcaption {
-  padding: 5px 5px;
-  margin: 5px 0;
+.bg-3 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url(../img/categories-3.jpg);
 }
 
-.section2-figcaption a {
-  color: #000;
-  font-weight: bold;
+.top-category p {
+  font-size: 13px;
 }
 
-.section2-figcaption span {
-  font-size: 14px;
+.top-category li {
+  font-size: 13px;
   color: #898888;
 }
 
-/* ========THE Categories SECTION======== */
-
-.section3 {
-  border: 1px solid green;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 1450px;
+.center-category {
+  background-color: #fffaf8;
+  padding-left: 10px;
 }
 
-.first-block {
-  display: flex;
-  justify-content: center;
-  border: 2px solid yellow;
+.center-category p {
+  margin-top: 10px;
+  font-size: 12px;
+  margin-bottom: 3px;
 }
 
-.first-block div,
-.second-block div,
-.third-block div {
-  margin: 10px 30px;
-}
-
-.second-block {
-  display: flex;
-  justify-content: center;
-  border: 2px solid yellow;
-}
-
-
-.third-block {
-  display: flex;
-  justify-content: center;
-  border: 2px solid yellow;
-}
-
-.categories {
-  width: 450px;
-  height: 700px;
-}
-
-
-.categories-header {
+.center-category a {
   color: #f42;
 }
 
-.categories-main-img1 {
-  flex-direction: column;
-  display: flex;
-  background-image: url(img/1280px-GameStop_Globen-e1611550531323-368x276.jpg);
-  width: 380px;
-  height: 250px;
+.bottom-category {
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
-.categories-main-img2 {
-  flex-direction: column;
-  display: flex;
-  background-image: url(img/Snag_3c8ecdc-368x276.webp);
-  width: 380px;
-  height: 250px;
-}
-.categories-main-img3 {
-  flex-direction: column;
-  display: flex;
-  background-image: url(img/MacBook-USB-C-Feat-Img-730x365.jpg);
-  width: 380px;
-  height: 250px;
-}
-.categories-main-img4 {
-  flex-direction: column;
-  display: flex;
-  background-image: url(img/vintage-robot-368x276.jpg);
-  width: 380px;
-  height: 250px;
-}
-.categories-main-img5 {
-  flex-direction: column;
-  display: flex;
-  background-image: url(img/Untitled-design-13-368x276.webp);
-  width: 380px;
-  height: 250px;
+.bottom-category li {
+  list-style: disc outside;
+  padding: 10px 0;
+  border-bottom: lightgray 1px solid;
 }
 
-.categories-main-img6 {
-  flex-direction: column;
-  display: flex;
-  background-image: url(img/open-source-code-gq-368x276.webp);
-  width: 380px;
-  height: 250px;
+.highlights ul > li {
+  margin-right: 10px;
 }
 
-.categories-main-img7 {
-  flex-direction: column;
-  display: flex;
-  background-image: url(img/zoom-fundraising-gq-368x276.webp);
-  width: 380px;
-  height: 250px;
+.categories #second-category,
+.categories #third-category {
+  display: none;
 }
 
-.categories-main-img8 {
-  flex-direction: column;
-  display: flex;
-  background-image: url(img/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg);
-  width: 380px;
-  height: 250px;
+.hover-underline {
+  color: var(--whiteColor);
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
-
-.categories-main-img9 {
-  flex-direction: column;
-  display: flex;
-  background-image: url(img/amplified-368x276.jpg);
-  width: 380px;
-  height: 250px;
-}
-
-.categories-main-infos {
-  flex-direction: column;
-  width: 380px;
-  padding-top: 150px;
-  
-}
-
-.categories-main-infos p {
-  color: #fff;
-  font-size: 13px;
-  font-weight: 100;
-}
-
-#main-img-header{
-  font-weight: bold;
-  color: #fff;
-  font-size: 23px;
-}
-.categories-main-infos span a {
-  font-weight: bold;
-  color: #666;
-  font-size: 13px;
-}
-
-.categories-news {
-  display: flex;
-  justify-content: space-between;
-}
-
-.categories-news a {
-  color: #f42;
-}
-
-
-.news-img {
-  width: 90px;
-  height: 90px;
-}
-
-.categories-links ul li {
-  border-bottom: 1px solid #ccc;
-  padding: 5px 0;
-  list-style-type: disk;
-}
-
-.categories-links li a {
-  text-decoration: none;
-  color: #555;
-}
-
-.categories-links li a:hover {
-  color: black;
-}
-
-
-
 
 /* ========THE LATEST FUNDING SECTION========== */
 .latest-funding {
@@ -469,42 +330,53 @@ nav .fas {
 }
 
 /* ========THE LATEST DEALS SECTION======== */
-.deals {
+.news {
   flex-direction: column;
   padding: 10px;
+  margin: auto;
 }
 
-.deals h2,
-.deals .latest-heading {
+.news h2,
+.news .latest-heading {
   color: #f42;
   margin: 20px o;
 }
 
-.deals img {
+.news img {
   height: 60px;
   width: 90px;
 }
 
-.sub-deals {
+.sub-news {
   flex-direction: row;
   margin-bottom: 10px;
 }
 
-.sub-deals h4 {
+.sub-news h4 {
   margin-top: 2px;
   margin-bottom: 5px;
-  font-size: 13px;
+  font-size: 0.8em;
   color: #000;
 }
 
-.sub-deals ul {
+.sub-news .wrapper {
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.sub-news ul {
   font-size: 12px;
   color: 898888;
 }
 
-.deals .latest-heading {
+.news .latest-heading {
   flex-direction: row;
   justify-content: space-between;
+}
+
+.news .latest-heading > p{
+  margin-top: 25px;
+  font-size: 0.8rem;
 }
 
 .deals ul {
@@ -717,25 +589,31 @@ i {
     gap: 10px;
   }
 
-  .sub-deals {
+  .sub-news {
     flex-direction: column;
   }
 
-  .sub-deals h4 {
+  .sub-news h4 {
     font-size: 13px;
   }
 
-  .deals img {
+  .news img {
     height: 110px;
     width: 100%;
   }
 
-  .sub-deals ul {
+  .sub-news .wrapper {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .sub-news ul {
     font-size: 10px;
     color: #898888;
   }
 
-  .sub-deals .img-wrapper {
+  .sub-news .img-wrapper {
     position: relative;
   }
 
@@ -765,6 +643,28 @@ i {
 
   .deals ul {
     color: #000;
+    font-size: 13px;
+  }
+
+    /* =======Category section tablet view====== */
+  .categories {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .category {
+    width: 49%;
+  }
+
+  .categories #second-category {
+    display: flex;
+  }
+
+  .top-category {
+    height: 240px;
+  }
+
+  .bottom-category li {
     font-size: 13px;
   }
 }
@@ -844,20 +744,48 @@ i {
     display: block;
   }
 
+  .categories {
+    justify-content: space-between;
+  }
+
+  .category {
+    width: 32%;
+  }
+
+  .categories #third-category {
+    display: flex;
+  }
+
+  .top-category {
+    height: 240px;
+  }
+
+  .top-category h3 {
+    font-size: 16px;
+  }
+
+  .center-category h5 {
+    font-size: 14px;
+  }
+
+  .bottom-category li {
+    font-size: 13px;
+  }
+
   /* =====Latest deals section desktop view =====*/
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap:10px;
   }
-  .sub-deals h4 {
+  .sub-news h4 {
     font-size: 14px;
   }
 
-  .deals img {
+  .news img {
     height: 130px;
   }
-  .deals h4 {
+  .news h4 {
     margin-top: 20px;
   }
 }
